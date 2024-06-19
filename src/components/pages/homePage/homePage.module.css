@@ -1,23 +1,21 @@
 .containerHomePage{
-    max-width: 50%;
-    font-family: "Love Ya Like A Sister";
-    /* margin: 6% auto; */
-    margin-top: 9%;
-    margin-left: 8%;
-    /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  font-family: "Love Ya Like A Sister";
+  margin-top: 15%;
+  margin-left: 10%;
 }
 
-.title , .black_larg , .black_small, .pink_text{
-    font-family: "Love Ya Like A Sister";
-    font-weight: 400;
-  }
-  .title{
-    display: inline-block;
-    border-bottom: 7px solid #f1356d;
-    border-radius: 36%;
-    padding: 0 14vh;
-  }
-  .black_small{
+.textHeader{
+  max-width: 60%;
+}
+
+.black_larg , .black_small, .pink_text{
+  font-family: "Love Ya Like A Sister";
+  font-weight: 400;
+}
+
+.black_small{
     font-size: 9vh;
   }
   .black_larg{

@@ -1,9 +1,9 @@
 .navbar {
     font-size: large;
-    padding: 20px;
+    padding: 1rem;
     display: flex;
     align-items: center;
-    max-width: 1700px;
+    max-width: 100%;
     margin: 0 auto;
     border-bottom: 2px solid #e8e3e3;
     width: 85%;
@@ -11,14 +11,13 @@
 .navbar h1 {
     color: #f1356d;
 }
-.navbar .links {
+.links {
     margin-left: auto;
 }
 .navbar a {
-    margin-left: 16px;
+    margin-left: 1rem;
     text-decoration: none;
-    padding: 11px;
-    font-size: large;
+    padding: 0.5rem;
 }
 .navbar a:hover {
     color: #f1356d;
@@ -26,7 +25,7 @@
 .link_a{
     color: white;
     background-color: #f1356d;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 .navbar .link_a:hover{
   color: white;

@@ -5,10 +5,9 @@ import Navbar from './components/windows/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar></Navbar>
       <Routes>
-        
         <Route path='/' element={<HomePage/>}/>
       </Routes>
     </div>
