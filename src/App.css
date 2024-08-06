@@ -1,6 +1,8 @@
 .app {
-  background-image: linear-gradient(to top, #F891C9, white ) ;  
+  background-image: linear-gradient(to top, #F891C9, white ) ;  /* #E77DB6 */
   position: fixed;
   width: 100%;
   height: 100%;
+  font-family: "Quicksand";
+  color: #333;
 } 
