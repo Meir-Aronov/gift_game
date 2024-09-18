@@ -29,17 +29,16 @@
     color: inherit;
 }
 
-.navbar .aboutAndHelp:hover {
+.aboutAndHelp:hover {
     color: #f1356d;
 }
 
 .createButton{
     color: white;
-    background-color: #f1356d;
-    /* background-color: #F24177; */
+    background-color: var(--button-color);
     border-radius: 0.5rem;
 }
-.navbar .createButton:hover{
+.createButton:hover{
   color: white;
-  background-color: #d42e60;
+  background-color:  var(--button-hover-color);
 }   

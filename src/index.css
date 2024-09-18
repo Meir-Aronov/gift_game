@@ -10,4 +10,6 @@
 :root {
   --shadow-color: #B879AA;
   --main-text-color:  #71696F;
+  --button-color: #F45D92;
+  --button-hover-color: #dc4e80;
 }

@@ -3,8 +3,8 @@ import classes from "./homePage.module.css";
 
 function HomePage() {
   return (
-    <div className={classes.containerHomePage}>
-      <div className={classes.textHeader}>
+    <div className={classes.containerHomePage} >
+      <div className={classes.textHeader} draggable>
         <span className={classes.black_small}>Who knows </span>
         <div>
           <span className={classes.black_larg}>Better...</span>
