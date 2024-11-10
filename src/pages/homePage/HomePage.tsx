@@ -1,7 +1,12 @@
+import { Component, ComponentElement, FunctionComponent } from "react";
 import Sign_in from "../../components/sign_in/Sign_in";
 import classes from "./homePage.module.css";
 
-function HomePage() {
+type HomePageProps = {
+  component: React.FunctionComponent
+}
+
+function HomePage({component: Component} : HomePageProps) {
   return (
     <div className={classes.containerHomePage} >
       <div className={classes.textHeader} draggable>
@@ -12,7 +17,7 @@ function HomePage() {
         </div>
       </div>
       <div className={classes.sign_in}>
-        <Sign_in />
+        <Component/>
       </div>
     </div>
   );
